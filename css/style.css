@@ -47,24 +47,30 @@ nav {
     background-position: center;
     height: 800px; /* Adjust the height as needed */
     display: flex;
-    justify-content: left;
+    justify-content: flex-start; /* Align content to the left */
     align-items: center;
     color: #fff;
 }
 
 .hero-content {
     text-align: center;
-    
-    
 }
 
 .hero h1 {
     font-size: 36px;
     margin-bottom: 20px;
-    
 }
 
 .hero p {
     font-size: 18px;
-    
+}
+
+.social-icons {
+    margin-left: 20px; /* Adjust spacing as needed */
+}
+
+.social-icon {
+    color: #fff; /* Change icon color */
+    font-size: 24px; /* Icon size */
+    margin-right: 10px; /* Adjust spacing between icons */
 }
