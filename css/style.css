@@ -1,11 +1,11 @@
-/* Basic CSS for navbar */
+
 nav {
     background-color: #333;
     color: #fff;
     padding: 10px;
     display: flex;
-    justify-content: space-between; /* Align items horizontally with space between them */
-    align-items: center; /* Center items vertically */
+    justify-content: space-between;
+    align-items: center;
 }
 
 .brand {
@@ -16,12 +16,12 @@ nav {
 .links a {
     color: #fff;
     text-decoration: none;
-    margin: 0 10px; /* Adjust margin as needed */
+    margin: 0 10px; 
 }
 
 .search-form {
     display: flex;
-    align-items: center; /* Center items vertically */
+    align-items: center;
 }
 
 .search-form input[type="text"] {
@@ -39,15 +39,14 @@ nav {
     cursor: pointer;
 }
 
-/* Additional styles for the homepage */
 
 .hero {
     background-image: url('https://wallpapershome.com/images/pages/pic_h/378.jpg');
     background-size: cover;
     background-position: center;
-    height: 800px; /* Adjust the height as needed */
+    height: 800px;
     display: flex;
-    justify-content: flex-start; /* Align content to the left */
+    justify-content: flex-start;
     align-items: center;
     color: #fff;
 }
@@ -66,11 +65,66 @@ nav {
 }
 
 .social-icons {
-    margin-left: 20px; /* Adjust spacing as needed */
+    margin-left: 20px;
 }
 
 .social-icon {
-    color: #fff; /* Change icon color */
-    font-size: 24px; /* Icon size */
-    margin-right: 10px; /* Adjust spacing between icons */
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+
+
+.contact-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 500px;
+    width: 400px;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-form form {
+    width: 100%;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block; 
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #555;
 }
