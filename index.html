@@ -25,13 +25,15 @@
                     <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
                 </div>
                 <div class="search-form">
-                    <input type="text" placeholder="Search...">
-                    <input type="submit" value="Search">
-                    <input type="reset" value="Reset">
+                    <input id="searchInput" type="text" placeholder="Search...">
+                    <button id="searchButton">Search</button>
+                    <button id="resetButton">Reset</button>
                 </div>
             </nav>
         </header>
         <main>
+            <!-- Recommendations container -->
+            <div class="recommendations-container" id="resultsContainer"></div>
             <section class="hero">
                 <div class="hero-content">
                     <h1>Welcome to Travel Far</h1>
@@ -40,5 +42,7 @@
             </section>
         </main>
     </div>
+
+    <script src="travel_recommendation.js"></script>
 </body>
 </html>
