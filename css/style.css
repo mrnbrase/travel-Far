@@ -1,0 +1,70 @@
+/* Basic CSS for navbar */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Align items horizontally with space between them */
+    align-items: center; /* Center items vertically */
+}
+
+.brand {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px; /* Adjust margin as needed */
+}
+
+.search-form {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.search-form input[type="text"] {
+    padding: 5px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.search-form input[type="submit"], 
+.search-form input[type="reset"] {
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+/* Additional styles for the homepage */
+
+.hero {
+    background-image: url('https://wallpapershome.com/images/pages/pic_h/378.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px; /* Adjust the height as needed */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #fff;
+}
+
+.hero-content {
+    text-align: center;
+    
+    
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    
+}
+
+.hero p {
+    font-size: 18px;
+    
+}
